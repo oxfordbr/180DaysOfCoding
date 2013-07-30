@@ -1,0 +1,133 @@
+/*******************************
+CSS Resets
+*******************************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*******************************
+Body styles
+*******************************/
+body {
+	background-color: #92C83F;
+	font-family: Helvetica, sans-serif;
+}
+h1 {
+	font-family: 'Titan One', cursive;
+	color: #0A8820;
+	text-decoration: underline;
+	text-align: center;
+	font-size: 3em;
+}
+h2 {
+	font-family: 'Titan One', cursive;
+	color: #0A8820;
+	font-weight: bold;
+	font-size: 1.8em;
+	padding-bottom: 0.5%;
+}
+h3 {
+	color: #0A8820;
+	font-size: 1.4em;
+	text-decoration: underline;
+	padding-bottom: 0.5%;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #0A8820;
+	text-decoration: underline;
+}
+#container {
+	width: 70%;
+	margin: auto;
+}
+/*******************************
+Header styles
+*******************************/
+#header { 
+	padding: 1%;
+}
+
+/*******************************
+Navigation styles
+*******************************/
+#nav {
+	background-color: #9A9B9F;
+	text-align: center;
+	border-radius: 15px;
+}
+#nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 2%;
+}
+#nav li a {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+/*******************************
+Content styles
+*******************************/
+#content {
+	padding: 3%;
+}
+
+/*******************************
+Footer styles
+*******************************/
+#footer {
+	background-color: #9A9B9F;
+	text-align: center;
+	border-radius: 15px;
+	padding: 1%;
+}
