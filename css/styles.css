@@ -121,6 +121,9 @@ Content styles
 #content {
 	padding: 3%;
 }
+#canvas {
+	border: 1px dashed black;
+}
 
 /*******************************
 Footer styles

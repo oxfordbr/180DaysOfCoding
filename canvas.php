@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>180 Projects :: Home</title>
+	<title>180 Projects :: Canvas</title>
 	<link href="css/styles.css" type="text/css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Titan+One' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/canvas.js"></script>
 </head>
 <body>
 	<div id="container">
@@ -18,16 +19,16 @@
 			</ul>
 		</div>
 		<div id="content">
-			<h2>The Projects</h2>
-			<h3>Day 1</h3>
-			<p>You're looking at it.</p>
-			<h3>Day 2</h3>
-			<p>I did a <a href="canvas.php">HTML5 canvas</a></p>
+			<h2>Day 2</h2>
+			<h3>HTML5 Canvas</h3>
+			<canvas id="canvas" width="500" height="250"></canvas>
 		</div>
 		<div id="footer">
 			<p>&copy; <?php echo date('Y'); ?> - Brendan Oxford <a href="http://www.brendanoxford.com">www.brendanoxford.com</a></p>
 		</div>
 	</div>
-
+<script type="text/javascript">
+	window.onload = draw();
+</script>
 </body>
 </html>
