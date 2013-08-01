@@ -23,6 +23,8 @@
 			<p>You're looking at it.</p>
 			<h3>Day 2</h3>
 			<p>I did a <a href="canvas.php">HTML5 canvas</a></p>
+			<h3>Day 3</h3>
+			<p>Today was <a href="bootstrap.html">Bootstrap</a> day!</p>
 		</div>
 		<div id="footer">
 			<p>&copy; <?php echo date('Y'); ?> - Brendan Oxford <a href="http://www.brendanoxford.com">www.brendanoxford.com</a></p>
