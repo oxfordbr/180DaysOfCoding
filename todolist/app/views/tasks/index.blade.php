@@ -9,4 +9,11 @@
 			</li>
 		@endforeach
 	</ul>
+
+	<hr>
+
+	@if (isset($users))
+		<h3>Add New Task</h3>
+		@include('tasks/partials/_form')
+	@endif
 @stop
