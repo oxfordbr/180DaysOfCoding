@@ -12,6 +12,7 @@ abstract class Validator {
 			$this->errors = $v->messages();
 			return false;
 		}
+		return true;
 	}
 
 	public function getErrors() {

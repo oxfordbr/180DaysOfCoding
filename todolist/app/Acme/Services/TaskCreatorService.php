@@ -6,6 +6,8 @@ use Task;
 
 class TaskCreatorService {
 
+	protected $validator;
+
 	public function __construct(TaskValidator $validator) {
 		$this->validator = $validator;
 	}
