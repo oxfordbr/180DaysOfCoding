@@ -19,7 +19,7 @@ class TaskCreatorService {
 			Task::create([
 				'title' => $attributes['title'],
 				'body' => $attributes['body'],
-				'user_id' => $attributes['assign']
+				'user_id' => $attributes['user_id']
 			]);
 
 			return true;
