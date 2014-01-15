@@ -19,8 +19,8 @@
 		</div>
 		<div id="content">
 			<h2>The Projects</h2>
-			<h3>Day 1 - Day 13</h3>
-			<p>The first project I will be completing is a <a href="todolist">to do list</a> (Note - Link is broken, will fix once I learn how)</p>
+			<h3>Day 1 - Day 14</h3>
+			<p>The first project I will be completing is a <a href="todolist/public/">to do list</a> (Note - Link works)</p>
 			<h2>The Projects (old)</h2>
 			<h3>Day 1</h3>
 			<p>You're looking at it.</p>
