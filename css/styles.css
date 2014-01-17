@@ -121,6 +121,9 @@ Content styles
 #content {
 	padding: 3%;
 }
+p {
+	line-height: 1.4;
+}
 #canvas {
 	border: 1px dashed black;
 }
