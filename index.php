@@ -19,8 +19,10 @@
 		</div>
 		<div id="content">
 			<h2>The Projects</h2>
-			<h3>Day 1 - Day 14</h3>
-			<p>The first project I completed is a to do list - Link removed.</p>
+			<h3>Day 16 - ???<h3>
+			<p>Beginning the CMS project.</p>
+			<h3>Day 1 - Day 15</h3>
+			<p>The first project I completed is a to do list - Link removed (see blog day 15).</p>
 			<h2>The Projects (old)</h2>
 			<h3>Day 1</h3>
 			<p>You're looking at it.</p>
