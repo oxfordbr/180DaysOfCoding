@@ -1,0 +1,14 @@
+Project Scope:
+
+Make CMS modular (each section is independent but integrates into main site). This allows me to focus on one section at a time and make my scope small. This also allows me to keep this CMS super light-weight, allowing people to download only the modules they want, or to create their own 3rd party modules if they want (after I'm done the 180 days project). For more information please see the 180 Sites blog (Day 21).
+
+Core features:
+Blog
+Users
+Basic Backend
+
+Modules:
+Static pages
+Hosting media (videos, pictures, etc)
+e-commerce
+etc. (More to come as I think of them)
