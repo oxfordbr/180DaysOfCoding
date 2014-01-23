@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBlogPostsTable extends Migration {
+class CreateUsersTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,12 +12,13 @@ class CreateBlogPostsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('blog_posts', function(Blueprint $table)
+		Schema::create('users', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('title');
-			$table->text('content');
-			$table->integer('user_id');
+			$table->string('user_id')->unique();
+			$table->string('password');
+			$table->string('email')->unique();
+			$table->string('permissions');
 			$table->timestamps();
 		});
 	}
@@ -29,7 +30,7 @@ class CreateBlogPostsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('blog_posts');
+		Schema::drop('users');
 	}
 
 }

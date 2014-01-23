@@ -3,9 +3,14 @@ Project Scope:
 Make CMS modular (each section is independent but integrates into main site). This allows me to focus on one section at a time and make my scope small. This also allows me to keep this CMS super light-weight, allowing people to download only the modules they want, or to create their own 3rd party modules if they want (after I'm done the 180 days project). For more information please see the 180 Sites blog (Day 21).
 
 Core features:
-Blog
+Blog 
+- Table created
 Users
+- Table created
 Basic Backend
+- Needs Permissions Table
+- Needs Drafts Table
+- Needs Post Versioning Table
 
 Modules:
 Static pages
